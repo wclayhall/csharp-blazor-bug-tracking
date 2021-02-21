@@ -1,0 +1,8 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=9e7e2693_002D5abc_002D4fc1_002Dafb7_002D46d1f3b24a1c/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Retrieve list of bugs @retrieve-buglist" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::25E352A8-4B94-4130-A4F0-331CFD3DA00E::.NETCoreApp,Version=v3.1::M6_BugTrackerUI.Tests.DisplayBugsUsingComponent.M6_04_RetrieveListofBugsTests.RetrieveListofBugsTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::25E352A8-4B94-4130-A4F0-331CFD3DA00E::.NETCoreApp,Version=v3.1::M6_BugTrackerUI.Tests.DisplayBugsUsingComponent.M6_05_OrderBugsByPriorityTests.OrderBugsByPriorityTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::25E352A8-4B94-4130-A4F0-331CFD3DA00E::.NETCoreApp,Version=v3.1::M6_BugTrackerUI.Tests.DisplayBugsUsingComponent.M6_06_DisplayBugsInTableTests.DisplayBugsInTableTest&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

@@ -1,5 +1,6 @@
 ﻿@using BugTrackerUI.Services
 @using System.Net
+@using System.Data
 <h3>All Bugs</h3>
 <table>
     <thead>
@@ -10,8 +11,7 @@
         <th>Priority</th>
     </tr>
     </thead>
-    <tbody>
-    @foreach (var bug in Bugs)
+   @foreach (var bug in Bugs)
     {
         <tr>
             <td>@bug.Id</td>
@@ -20,19 +20,18 @@
             <td>@bug.Priority</td>
         </tr>
     }
-    </tbody>
-</table>
+    </table>
 
 @code {
 
     [Inject]
-    public IBugService BugService { get; set; } = new BugService();
+    public IBugService BugService { get; set; }
 
     public List<Bug> Bugs { get; set; }
 
     protected override void OnInitialized()
     {
-        Bugs = BugService.GetBugs().OrderBy(x=> x.Priority).ToList();
+        Bugs = BugService.GetBugs().OrderBy(x => x.Priority).ToList();
     }
 
 }
