@@ -28,7 +28,7 @@
     [Inject]
     public IBugService BugService { get; set; } = new BugService();
 
-    public List<Bug> Bugs;
+    public List<Bug> Bugs { get; set; }
 
     protected override void OnInitialized()
     {
